@@ -1,0 +1,28 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Camisa viscose bordô",
+    "price": 105.99
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/47bb169d-0418-495a-890f-f7fc039ec598
+
+###
+
+PUT http://localhost:4002/products/24046132-659e-4368-9210-3a79101831f7
+content-type: application/json
+
+{
+    "name": "Camiseta",
+    "price": 54
+}
+
+###
+DELETE http://localhost:4002/products/bf6dba94-85bf-4a5a-be0c-72819dc2995d
